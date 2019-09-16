@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background: #000;
+		}
+		table{
+			border-collapse: collapse;
+			margin: 0 auto;
+		}
+		td{
+			border: 1px solid #fff;
+			width: 25px;
+			height: 25px;
+		}
+		h1{
+			color: white;
+		}
+		.c1{
+			background: linear-gradient(to top,pink,red);
+		}
+		.c2{
+			background:linear-gradient(to top,#ff0080,purple);
+		}
+		.c3{
+			background: linear-gradient(to top,#6fc,blue);
+		}
+		.c4{
+			background: linear-gradient(to top,#ffc,gold);
+		}
+		.c5{
+			background: linear-gradient(to top,pink,deeppink);
+		}
+		.c6{
+			background: linear-gradient(to top,greenyellow,green);
+		}
+		.c7{
+			background: linear-gradient(to top,#eee,#333);
+		}
+	</style>
+</head>
+<body>
+	<h1>分数：0</h1>
+	<table>
+	</table>
+	<script src = "js/jQuery.min.js"></script>
+	<script src = "js/Game.js"></script>
+	<script src = "js/Block.js"></script>
+	<script src = "js/Map.js"></script>
+	<script src = "js/block_json.js"></script>
+	<script>
+		//new一个game的实例
+		var game = new Game()
+	</script>
+</body>
+</html>
